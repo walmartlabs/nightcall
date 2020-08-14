@@ -1,3 +1,11 @@
+***
+# NOTICE:
+ 
+## This repository has been archived and is not supported.
+ 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+***
+
 # Nightcall
 
 Automated enumeration script built to reduce repetitive tasks during large black-box network pentests. Initial host discovery performed by basic throttled masscan, followed by service enumeration of each host, full port if host count less than a preconfigured constant, top port count otherwise. Nmap outputs are then parsed and common tooling queued up for follow up enumeration based on discovered service. All tasks after initial host discovery are multi-processed, with the task count being a configurable constant.
